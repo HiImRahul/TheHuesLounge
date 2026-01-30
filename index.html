@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="The Hues Lounge Makeover Studio - Premium beauty salon offering bridal makeup, hair styling, facials, nail art, and mehendi services. Transform your look with our expert artists.">
+  <meta name="keywords"
+    content="makeover studio, beauty salon, bridal makeup, hair styling, facial treatment, nail art, mehendi, beauty services">
+  <title>The Hues Lounge Makeover Studio | Premium Beauty & Makeover Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <div class="logo">THE HUES LOUNGE</div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-subtitle">Premium Makeover Studio</p>
+      <h1>Transform Your Beauty at The Hues Lounge</h1>
+      <p class="hero-tagline"
+        style="font-size: 1.3rem; font-style: italic; color: #ff6b9d; margin: 15px 0; font-weight: 500;">"We can create
+        what you imagine"</p>
+      <p class="hero-description">Experience luxury beauty services with our expert artists. From bridal makeovers to
+        everyday elegance, we create the perfect look for every occasion.</p>
+      <div class="hero-buttons">
+        <a href="#portfolio" class="btn btn-primary">View Our Work</a>
+        <a href="#contact" class="btn btn-outline">Book Appointment</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Our Expertise</p>
+        <h2>Premium Beauty Services</h2>
+        <p>Discover our comprehensive range of professional beauty and makeover services designed to enhance your
+          natural beauty.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <div class="service-icon">💄</div>
+          <h3>Bridal Makeup</h3>
+          <p>Look stunning on your special day with our expert bridal makeup services. We create timeless, elegant looks
+            that photograph beautifully.</p>
+          <a href="#portfolio" class="service-link">View Gallery →</a>
+        </div>
+
+        <div class="service-card fade-in">
+          <div class="service-icon">✨</div>
+          <h3>Party & Event Makeup</h3>
+          <p>Make a statement at any event with our glamorous party makeup. From subtle elegance to bold drama, we've
+            got you covered.</p>
+          <a href="#portfolio" class="service-link">View Gallery →</a>
+        </div>
+
+        <div class="service-card fade-in">
+          <div class="service-icon">💇</div>
+          <h3>Hair Styling & Coloring</h3>
+          <p>Transform your hair with our professional styling and coloring services. From classic cuts to vibrant color
+            transformations.</p>
+          <a href="#portfolio" class="service-link">View Gallery →</a>
+        </div>
+
+        <div class="service-card fade-in">
+          <div class="service-icon">🌸</div>
+          <h3>Facial & Skin Care</h3>
+          <p>Rejuvenate your skin with our luxury facial treatments. Using premium products for glowing, healthy skin.
+          </p>
+          <a href="#portfolio" class="service-link">View Gallery →</a>
+        </div>
+
+        <div class="service-card fade-in">
+          <div class="service-icon">💅</div>
+          <h3>Nail Art & Manicure</h3>
+          <p>Pamper yourself with our artistic nail designs and premium manicure services. Beautiful nails for every
+            occasion.</p>
+          <a href="#portfolio" class="service-link">View Gallery →</a>
+        </div>
+
+        <div class="service-card fade-in">
+          <div class="service-icon">🎨</div>
+          <h3>Mehendi Art</h3>
+          <p>Adorn your hands with intricate traditional and contemporary mehendi designs by our skilled artists.</p>
+          <a href="#portfolio" class="service-link">View Gallery →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Our Work</p>
+        <h2>Style Catalogue</h2>
+        <p>Explore our portfolio of stunning transformations and artistic creations.</p>
+      </div>
+
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">All Works</button>
+        <button class="filter-btn" data-filter="bridal">Bridal Makeup</button>
+        <button class="filter-btn" data-filter="party">Party Makeup</button>
+        <button class="filter-btn" data-filter="hair">Hair Styling</button>
+        <button class="filter-btn" data-filter="facial">Facial & Skincare</button>
+        <button class="filter-btn" data-filter="nails">Nail Art</button>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-item fade-in" data-category="bridal">
+          <img src="assets/bridal_makeup_work_1769752013817.png" alt="Bridal Makeup">
+          <div class="portfolio-overlay">
+            <h3>Traditional Bridal Look</h3>
+            <p class="portfolio-category">Bridal Makeup</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-in" data-category="hair">
+          <img src="assets/hair_styling_work_1769752031223.png" alt="Hair Styling">
+          <div class="portfolio-overlay">
+            <h3>Vibrant Hair Transformation</h3>
+            <p class="portfolio-category">Hair Styling & Coloring</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-in" data-category="facial">
+          <img src="assets/facial_treatment_work_1769752050120.png" alt="Facial Treatment">
+          <div class="portfolio-overlay">
+            <h3>Luxury Facial Treatment</h3>
+            <p class="portfolio-category">Facial & Skincare</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-in" data-category="party">
+          <img src="assets/party_makeup_work_1769752079767.png" alt="Party Makeup">
+          <div class="portfolio-overlay">
+            <h3>Glamorous Evening Look</h3>
+            <p class="portfolio-category">Party Makeup</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-in" data-category="nails">
+          <img src="assets/nail_art_work_1769752096791.png" alt="Nail Art">
+          <div class="portfolio-overlay">
+            <h3>Artistic Nail Design</h3>
+            <p class="portfolio-category">Nail Art</p>
+          </div>
+        </div>
+
+        <div class="portfolio-item fade-in" data-category="bridal">
+          <img src="assets/bridal_makeup_work_1769752013817.png" alt="Bridal Makeup">
+          <div class="portfolio-overlay">
+            <h3>Elegant Bridal Makeover</h3>
+            <p class="portfolio-category">Bridal Makeup</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Client Reviews</p>
+        <h2>What Our Clients Say</h2>
+        <p>Read testimonials from our satisfied clients who experienced our premium services.</p>
+      </div>
+
+      <div class="testimonials-slider">
+        <div class="testimonial-card">
+          <p class="testimonial-text">"The Hues Lounge made my wedding day absolutely perfect! The bridal makeup was
+            flawless and lasted throughout the entire celebration. The team was professional, talented, and made me feel
+            like a princess. Highly recommended!"</p>
+          <p class="testimonial-author">- Priya Sharma</p>
+          <div class="testimonial-rating">★★★★★</div>
+        </div>
+
+        <div class="slider-controls">
+          <button class="slider-btn" id="prevBtn">←</button>
+          <button class="slider-btn" id="nextBtn">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Get In Touch</p>
+        <h2>Book Your Appointment</h2>
+        <p>Contact us today to schedule your makeover session or inquire about our services.</p>
+      </div>
+
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item fade-in">
+            <div class="contact-icon">📞</div>
+            <div class="contact-details">
+              <h3>Phone</h3>
+              <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+              <p><a href="tel:+919123456789">+91 91234 56789</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item fade-in">
+            <div class="contact-icon">✉️</div>
+            <div class="contact-details">
+              <h3>Email</h3>
+              <p><a href="mailto:info@thehueslounge.com">info@thehueslounge.com</a></p>
+              <p><a href="mailto:bookings@thehueslounge.com">bookings@thehueslounge.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-item fade-in">
+            <div class="contact-icon">📍</div>
+            <div class="contact-details">
+              <h3>Location</h3>
+              <p>Pulimoodu, Chirayinkeezhu<br>Koonthalloor, Kerala 695304</p>
+              <a href="https://maps.app.goo.gl/J1AmqcBaTo8c5kMG7" target="_blank" class="btn btn-primary"
+                style="margin-top: 15px; padding: 10px 25px; font-size: 0.9rem; color: #fff">View on Google Maps →</a>
+            </div>
+          </div>
+
+          <div class="contact-item fade-in">
+            <div class="contact-icon">⏰</div>
+            <div class="contact-details">
+              <h3>Working Hours</h3>
+              <p>Monday - Saturday: 10:00 AM - 8:00 PM<br>Sunday: 11:00 AM - 6:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-map fade-in">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.8!2d76.794577!3d8.663348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOMKwMzknNDguMSJOIDc2wrA0Nyc0MC41IkU!5e0!3m2!1sen!2sin!4v1706606400000!5m2!1sen!2sin"
+            width="100%" height="500" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>The Hues Lounge</h3>
+          <p>Your premier destination for luxury beauty and makeover services. We transform beauty into art.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+            <a href="#" class="social-link" aria-label="Twitter">🐦</a>
+            <a href="#" class="social-link" aria-label="YouTube">📺</a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Our Services</h3>
+          <div class="footer-links">
+            <a href="#services">Bridal Makeup</a>
+            <a href="#services">Party Makeup</a>
+            <a href="#services">Hair Styling</a>
+            <a href="#services">Facial & Skincare</a>
+            <a href="#services">Nail Art</a>
+            <a href="#services">Mehendi Art</a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <div class="footer-links">
+            <a href="tel:+919876543210">+91 98765 43210</a>
+            <a href="mailto:info@thehueslounge.com">info@thehueslounge.com</a>
+            <p style="color: rgba(255,255,255,0.7); margin-top: 10px;">Pulimoodu, Chirayinkeezhu<br>Koonthalloor, Kerala
+              695304</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 The Hues Lounge Makeover Studio. All rights reserved. | Designed with ❤️</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
